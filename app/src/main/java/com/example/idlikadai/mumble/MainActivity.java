@@ -3,6 +3,9 @@ package com.example.idlikadai.mumble;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initResources();
         addStylesToView();
+        addAnimationEffect();
     }
 
     /**
@@ -32,5 +36,14 @@ public class MainActivity extends AppCompatActivity {
                     "fonts/journal.ttf");
             mIntroTextView.setTypeface(face);
         }
+    }
+
+    private void addAnimationEffect(){
+        Animation animation = new TranslateAnimation
+                (0, 0,0, -300);
+        animation.setDuration(1000);
+        animation.setFillAfter(true);
+        mIntroTextView.startAnimation(animation);
+        mIntroTextView.setVisibility(View.INVISIBLE);
     }
 }
