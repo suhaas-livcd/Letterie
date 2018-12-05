@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Mumble</string>
-    <string name="app_intro">Holie</string>
+    <string name="app_intro_1">Hi there ...</string>
+    <string name="app_intro_2">Holie</string>
 </resources>
