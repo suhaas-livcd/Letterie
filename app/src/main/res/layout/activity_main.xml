@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorMidnightBlue">
     <TextView
-        android:id="@+id/mainActivity_textView_Intro"
+        android:id="@+id/mainActivity_textView_Intro_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/app_intro_1"
         android:gravity="center"
         android:textColor="@color/colorGreenSear"/>
-</LinearLayout>
+    <TextView
+        android:id="@+id/mainActivity_textView_Intro_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/app_intro_2"
+        android:gravity="center"
+        android:textColor="@color/colorGreenSear"/>
+    <TextView
+        android:id="@+id/mainActivity_textView_Intro_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/app_intro_3"
+        android:gravity="center"
+        android:textColor="@color/colorGreenSear"/>
+</FrameLayout>

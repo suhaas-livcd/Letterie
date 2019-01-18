@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Mumble</string>
     <string name="app_intro_1">Hi there ...</string>
-    <string name="app_intro_2">Holie</string>
+    <string name="app_intro_2">Missing your \nhandwritten letters</string>
+    <string name="app_intro_3">Lets get started then</string>
 </resources>
